@@ -8,6 +8,9 @@ You must have `nim` and `nimble` installed to compile these examples. See
 The examples in this repo have node and Nim dependencies. Both need to be
 types need to be installed before the examples will build:
 ```sh
+# Clone this repo and its submodule
+git clone --recurse-submodules https://github.com/bmollot/nim-loader-demo.git
+
 # Install Nim dependencies
 nimble install
 

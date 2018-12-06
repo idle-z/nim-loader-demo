@@ -3,10 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
-  devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist'
-  },
 
   entry: './src/index.js',
 
@@ -22,7 +18,7 @@ module.exports = {
         test: /\.nim$/,
         use: [
           {
-            loader: path.resolve(__dirname, '../../nim-loader/dist/loader.js')
+            loader: '../../nim-loader'
           }
         ]
       }
