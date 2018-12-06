@@ -10,6 +10,7 @@ types need to be installed before the examples will build:
 ```sh
 # Clone this repo and its submodule
 git clone --recurse-submodules https://github.com/bmollot/nim-loader-demo.git
+cd nim-loader-demo
 
 # Install Nim dependencies
 nimble install

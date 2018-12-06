@@ -17,8 +17,9 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
+    "build-nim-loader": "cd nim-loader && npm run build",
     "build-simple-demo": "cd examples/simple && webpack",
     "build-karax-demo": "cd examples/karax-spa && webpack",
-    "build": "npm run build-simple-demo && npm run build-karax-demo"
+    "build": "npm run build-nim-loader && npm run build-simple-demo && npm run build-karax-demo"
   }
 }
