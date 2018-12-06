@@ -1,0 +1,24 @@
+{
+  "name": "nim-loader-demo",
+  "version": "1.0.0",
+  "description": "An example of using Webpack to load Nim code",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Braeden Mollot",
+    "email": "3mollot@gmail.com"
+  },
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build-simple-demo": "cd examples/simple && webpack",
+    "build-karax-demo": "cd examples/karax-spa && webpack",
+    "build": "npm run build-simple-demo && npm run build-karax-demo"
+  }
+}

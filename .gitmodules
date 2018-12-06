@@ -1,0 +1,3 @@
+[submodule "nim-loader"]
+path = nim-loader
+url = https://github.com/bmollot/nim-loader
